@@ -34,6 +34,9 @@ public class Student {
         if (o == null || getClass() != o.getClass()) return false;
         Student student = (Student) o;
         System.out.println(1111);
+
+        System.out.println("hot fix merge");
+
         return age == student.age && name.equals(student.name);
     }
 }
