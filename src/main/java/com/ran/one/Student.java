@@ -41,6 +41,8 @@ public class Student {
 
         System.out.println("hot fix merge 2");
 
+        System.out.println("pull test");
+
         return age == student.age && name.equals(student.name);
     }
 }
