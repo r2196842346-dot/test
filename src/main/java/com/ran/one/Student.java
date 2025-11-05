@@ -33,6 +33,7 @@ public class Student {
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
         Student student = (Student) o;
+        System.out.println(1111);
         return age == student.age && name.equals(student.name);
     }
 }
