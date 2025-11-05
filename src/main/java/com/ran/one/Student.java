@@ -43,6 +43,8 @@ public class Student {
 
         System.out.println("pull test");
 
+        System.out.println("github ");
+
         return age == student.age && name.equals(student.name);
     }
 }
